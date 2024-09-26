@@ -12,7 +12,8 @@ without sacrificing their memory.
 
 ## Install
 
-This is not compiled, in order to open it as an extension you must enable developer mode on chrome and "Load unpack", selecting the build folder
+This is not compiled... I am still working on making it more use friendly.
+Though using Chrome Extension Developer Tools in VSCode, you may compile it yourself.
 
 ## Contribution
 
