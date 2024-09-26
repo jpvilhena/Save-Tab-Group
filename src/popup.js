@@ -7,7 +7,6 @@ import './popup.css';
   
   document.getElementById("open-btn").addEventListener("click", () => {
     document.getElementById("file-input").click();
-    console.log("We here"); // Trigger the file input dialog
   });
 
   document.getElementById("file-input").addEventListener("change", async (event) => {
