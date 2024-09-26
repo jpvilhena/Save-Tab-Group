@@ -1,15 +1,19 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> Save Tab Group
 
-My Chrome Extension
+  I noticed that when I save a group of tabs on google chrome, those tabs are still allocated in my memory.
+  
+  So I made this plugin to save and open tabs from txt files, this way, the use can come back from where they were
+without sacrificing their memory.
 
 ## Features
 
-- Feature 1
-- Feature 2
+- Save a group of tabs as a txt file with the urls separated by paragraphs
+- Open a group of tabs from a txt file, with the urls separated by paragraphs
 
 ## Install
 
-[**Chrome** extension]()
+This is not compiled... I am still working on making it more use friendly.
+Though using Chrome Extension Developer Tools in VSCode, you may compile it yourself.
 
 ## Contribution
 
