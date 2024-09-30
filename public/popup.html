@@ -7,15 +7,26 @@
 </head>
 <body>
   <div class="app">
-    <p class="counter-label">Save Current?</p>
-    <div class="button-container">
-      <button id="save-btn" class="button">Save Group</button>
-      <button id="open-btn" class="button">Open URLs</button>
-
-      <input type="file" id="file-input" accept=".txt" style="display: none;">
-
-      <script src="popup.js"></script>
+    <p class="title">Save Current?</p>
+    <div class="button-container" >
+      <button id="save-btn" class="button" data-preset="Preset1">Save</button>
+      <button id="del-btn" class="del-button" data-preset="Preset1">Delete</button>
+      <button id="open-btn" class="button" data-preset="Preset1">Open</button>
     </div>
+    <div class="button-container" >
+      <button id="save-btn" class="button" data-preset="Preset2">Save</button>
+      <button id="del-btn" class="del-button" data-preset="Preset2">Delete</button>
+      <button id="open-btn" class="button" data-preset="Preset2">Open</button>
+    </div>
+    <div class="button-container" >
+      <button id="save-btn" class="button" data-preset="Preset3">Save</button>
+      <button id="del-btn" class="del-button" data-preset="Preset3">Delete</button>
+      <button id="open-btn" class="button" data-preset="Preset3">Open</button>
+    </div>
+  </div>
+    
+    <script src="popup.js"></script>
+
   </div>
 </body>
 </html>
